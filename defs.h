@@ -120,6 +120,7 @@ void            userinit(void);
 int             wait(void);
 void            wakeup(void*);
 void            yield(void);
+int             myname(void); // under proc.c which falls around line 123.
 
 // swtch.S
 void            swtch(struct context**, struct context*);

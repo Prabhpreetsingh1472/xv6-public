@@ -89,3 +89,8 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+// Our custom system call
+int sys_myname(void){
+    return myname();
+}

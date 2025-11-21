@@ -532,3 +532,10 @@ procdump(void)
     cprintf("\n");
   }
 }
+
+int myname(void){
+    // Let's just print hello
+    cprintf("hello from syscall written by Prabhpreet Singh, singh.prab@northeastern.edu!\n");
+
+    return 22; // Our system call number
+}
